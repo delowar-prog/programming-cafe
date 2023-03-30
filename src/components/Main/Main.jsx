@@ -4,12 +4,14 @@ import './Main.css'
 import Sidebar from '../Sidebar/Sidebar'
 const Main = () => {
   const [bookMarks, setBookMarks]=useState([])
+  const [readTime, setReadTime]=useState(0)
   const handleBookMark=(blog)=>{
     const newBookMarks=[...bookMarks, blog]
     setBookMarks(newBookMarks)
   }
-  const handleReadTime=(readTime)=>{
-    console.log(readTime)
+  const handleReadTime=(time)=>{
+    const newReadTime=readTime+time;
+    console.log(newReadTime)
   }
   return (
     <div className='main-section'>
