@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    align-items: center;
+    padding: 10px 60px;
+}
+.header h2{
+    color:#fff;
+}
+.header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .header{flex-direction:column;}
+}
