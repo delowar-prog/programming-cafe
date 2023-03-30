@@ -4,6 +4,7 @@
 .single-blog img{
     width: 100%;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 .authorAndTime{
     display: flex;
@@ -11,10 +12,49 @@
     align-items: center;
 }
 .author-section{
-
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
 }
 .author-section img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+}
+.author-name{
+    text-align: left;
+}
+.author-name h4{
+    margin-top:0;
+    margin-bottom:0;
+}
+.author-name p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title-markRead-container{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.title{
+    text-align: left;
+    font-size: 28px;
+}
+.hash-tag{
+    text-align: left;
+    color:#888;
+}
+.hash-tag-right{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mark-read-btn{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.font-awesome{
+    margin-left: 10px;
+    cursor: pointer;
 }

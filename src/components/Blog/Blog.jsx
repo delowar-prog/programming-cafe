@@ -1,5 +1,7 @@
 import React from 'react'
 import './Blog.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     const {id, title, coverImg, authorImg, authorName}=props.blog
   return (
@@ -13,10 +15,14 @@ const Blog = (props) => {
                     <p>Mar 14 (4 Days ago)</p>
                 </div>
             </div>
-            <div className='reading-time'>kdjf</div>
+            <div className='reading-time'>
+                <p>05 min read <span className='font-awesome'><FontAwesomeIcon icon={faBookmark} /></span></p>
+            </div>
         </div>
-        <div className='title'>
-        <h2></h2>
+        <div className='title-markRead-container'>
+            <h1 className='title'>{title}</h1>
+            <p className='hash-tag'>#beginners <span className='hash-tag-right'>#programming</span></p>
+            <a className='mark-read-btn'>Mark as read</a>
         </div>
     </div>
   )
