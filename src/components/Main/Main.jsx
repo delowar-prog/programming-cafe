@@ -8,9 +8,12 @@ const Main = () => {
     const newBookMarks=[...bookMarks, blog]
     setBookMarks(newBookMarks)
   }
+  const handleReadTime=(readTime)=>{
+    console.log(readTime)
+  }
   return (
     <div className='main-section'>
-      <Blogs handleBookMark={handleBookMark}></Blogs>
+      <Blogs handleBookMark={handleBookMark} handleReadTime={handleReadTime}></Blogs>
        <Sidebar bookMarks={bookMarks}></Sidebar>
     </div>
   )

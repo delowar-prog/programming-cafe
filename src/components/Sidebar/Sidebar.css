@@ -11,6 +11,8 @@
     font-size: 18px;
     border-radius: 5px;
     font-weight: 600;
+    position: sticky;
+    top:0;
 }
 .bookMarksContainer{
     background-color: #ddd;
@@ -18,4 +20,7 @@
     padding: 20px;
     border-radius: 5px;
     text-align: left;
+    position: sticky;
+    top:100px;
+
 }
