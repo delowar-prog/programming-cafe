@@ -10,13 +10,12 @@ const Main = () => {
     setBookMarks(newBookMarks)
   }
   const handleReadTime=(time)=>{
-    const newReadTime=readTime+time;
-    console.log(newReadTime)
+    setReadTime((previousTime)=>previousTime+time)
   }
   return (
     <div className='main-section'>
       <Blogs handleBookMark={handleBookMark} handleReadTime={handleReadTime}></Blogs>
-       <Sidebar bookMarks={bookMarks}></Sidebar>
+       <Sidebar bookMarks={bookMarks} readTime={readTime}></Sidebar>
     </div>
   )
 }

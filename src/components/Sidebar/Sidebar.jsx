@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Sidebar.css"
-const Sidebar = ({bookMarks}) => {
+const Sidebar = ({bookMarks, readTime}) => {
     const listItems = bookMarks.map((item) =><li>{item.title}</li>);
   return (
     <div className='sidebar'>
-        <h4>Spent time on read : 177 min</h4>
+        <h4>Spent time on read : {readTime} min</h4>
         <div className='bookMarksContainer'>
             <h3>Bookmarked Blogs : {bookMarks.length}</h3>
             <ul>
