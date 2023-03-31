@@ -24,3 +24,20 @@
     top:100px;
 
 }
+.bookMarksContainer ul{
+    padding: 0;
+}
+.bookMarkItem{
+    background-color:darkgray;
+    margin: 10px 0;
+    padding: 5px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}

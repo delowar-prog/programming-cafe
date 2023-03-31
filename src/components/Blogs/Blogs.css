@@ -1,3 +1,9 @@
 .blogs-container{
 padding: 60px 20px 60px 60px;  
 }
+
+@media only screen and (max-width: 768px) {
+    .blogs-container {
+        padding: 60px 20px 60px 20px;
+    }
+}

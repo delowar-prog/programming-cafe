@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Sidebar.css"
 const Sidebar = ({bookMarks, readTime}) => {
-    const listItems = bookMarks.map((item) =><li>{item.title}</li>);
+    const listItems = bookMarks.map((item) =><li className='bookMarkItem'>{item.title}</li>);
   return (
     <div className='sidebar'>
         <h4>Spent time on read : {readTime} min</h4>
