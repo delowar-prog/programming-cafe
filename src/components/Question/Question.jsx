@@ -36,7 +36,7 @@ const Question = () => {
             </div>
             <div className="collapse-content"> 
             <p className='text-justify text-lg'><b>useEffect:</b><br></br> 
-            useEffect hook is used as a side effect in react components. Usually it is used to fetch data from API or outside.  But it is also used to update the dom directly. useEffect accepts two arguments. The second argument is optional but when pass a dependency value, React will compare the current value of a state with the value of previous render. If they are not equal, the effect is called. The effect will run after each render.   
+            useEffect hook is used as a side effect in react components. Usually it is used to fetch data from API or outside.  But it is also used to update the dom directly & timers. useEffect accepts two arguments. The second argument is optional but when pass a dependency value, React will compare the current value of a state with the value of previous render. If they are not equal, the effect is called. The effect will run after each render.   
             </p>
             </div>
         </div>
