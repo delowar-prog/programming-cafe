@@ -1,7 +1,7 @@
 [
     {
       "id": "6425d16d02ae1bb788b57577",
-      "title": "This is Blog Title one",
+      "title": "How to become a successful front-end developer",
       "coverImg": "images/cover-1.jpg",
       "authorImg": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "authorName": "Robbins",
@@ -10,7 +10,7 @@
     },
     {
       "id": "6425d16df37db7cb9ea3a4de",
-      "title": "This is Blog Title Two",
+      "title": "What you need to know to be a backend developer",
       "coverImg": "images/cover-2.jpg",
       "authorImg": "https://www.catholicsingles.com/wp-content/uploads/2020/06/blog-header-3-768x464.png",
       "authorName": "Swanson",
@@ -19,7 +19,7 @@
     },
     {
       "id": "6425d16d6d3e94cd4d2ed9b7",
-      "title": "This is Blog Title Three",
+      "title": "The history of a programmer to become 0 to hero",
       "coverImg": "images/cover-3.jpg",
       "authorImg": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "authorName": "Fletcher",
@@ -28,7 +28,7 @@
     },
     {
       "id": "6425d16ded0e9d5f6eb70b13",
-      "title": "This is Blog Title Four",
+      "title": "Programming is one kind of art",
       "coverImg": "images/cover-4.jpg",
       "authorImg": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
       "authorName": "Rosalie",

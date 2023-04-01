@@ -22,7 +22,6 @@
     text-align: left;
     position: sticky;
     top:100px;
-
 }
 .bookMarksContainer ul{
     padding: 0;
@@ -39,5 +38,6 @@
     .sidebar {
         margin-right: 20px;
         margin-left: 20px;
+        margin-bottom: 80px;
     }
 }

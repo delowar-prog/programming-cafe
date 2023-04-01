@@ -6,7 +6,7 @@ const Sidebar = ({bookMarks, readTime}) => {
     <div className='sidebar'>
         <h4>Spent time on read : {readTime} min</h4>
         <div className='bookMarksContainer'>
-            <h3>Bookmarked Blogs : {bookMarks.length}</h3>
+            <h3 className='text-xl font-bold'>Bookmarked Blogs : {bookMarks.length}</h3>
             <ul>
                 {listItems}
             </ul>

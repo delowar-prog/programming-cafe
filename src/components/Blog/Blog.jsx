@@ -13,7 +13,7 @@ const Blog = (props) => {
             <div className='author-section'>
                 <img src={authorImg} alt="author_img"></img>
                 <div className='author-name'>
-                    <h4>{authorName}</h4>
+                    <h4 className='font-bold text-xl'>{authorName}</h4>
                     <p>{createdDate}</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ const Blog = (props) => {
             </div>
         </div>
         <div className='title-markRead-container'>
-            <h1 className='title'>{title}</h1>
+            <h1 className='title font-bold'>{title}</h1>
             <p className='hash-tag'>#beginners <span className='hash-tag-right'>#programming</span></p>
             <a className='mark-read-btn' onClick={()=>handleReadTime(readTime)}>Mark as read</a>
         </div>
